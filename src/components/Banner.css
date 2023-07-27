@@ -1,0 +1,118 @@
+.banner-container {
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
+
+.banner-content {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner-description {
+  widht: 45 rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-widht: 360px;
+  height: 80px;
+}
+
+.banner-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.banner-button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+.banner-button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-container {
+    max-height: 300px; /* Adjust the height for smaller screens */    
+  }
+
+  .banner-content {
+    padding-top: 70px; /* Adjust the padding for smaller screens */
+  }  
+}
+
+@media screen and (max-width: 540px) {
+  .banner-container {
+    max-height: 250px; /* Adjust the height for smaller screens */
+  }
+
+  .banner-title {
+    position: fixed;
+    font-size: 1.3rem; /* Adjust the font size for smaller screens */
+    top: 28px; /* Distância do topo */
+  }
+
+  .banner-description {
+    font-size: 0.7rem;
+    position: fixed;
+    top: 50px; /* Distância do topo */
+    left: 170px; /* Distância da esquerda */
+    width: 240px; /* Largura do container */
+    height: 100px; /* Altura do container */
+  }
+
+  .banner-button-container {
+    /* Alteração para posicionar os botões abaixo um do outro */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px; /* Adicione algum espaçamento entre os botões */
+  }
+
+  .banner-button {
+    margin: 0.5rem 0.5rem; /* Add some space between buttons on smaller screens */
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner-container {
+    max-height: 200px;
+  }
+
+  .banner-description {
+    font-size: 0.5rem;
+    position: fixed;
+    top: 60px; /* Distância do topo */
+    left: 120px; /* Distância da esquerda */
+    width: 50%; /* Largura do container */
+  }
+
+  .banner-button {
+    font-size: 0.6rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}

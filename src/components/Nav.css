@@ -1,0 +1,50 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  z-index: 1;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav-logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav-avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav-container-black {
+  background-color: #111;
+}
+
+/* Estilos para telas menores (smartphones) */
+@media screen and (max-width: 768px) {
+  .nav-container {
+    height: 60px; /* Aumenta a altura para acomodar melhor o conteúdo em smartphones */
+    padding: 10px; /* Reduz o espaçamento entre os elementos */
+  }
+
+  .nav-logo {
+    left: 10px; /* Reduz a margem à esquerda */
+    width: 60px; /* Reduz o tamanho do logo */
+  }
+
+  .nav-avatar {
+    right: 10px; /* Reduz a margem à direita */
+    width: 20px; /* Reduz o tamanho do avatar */
+  }
+}

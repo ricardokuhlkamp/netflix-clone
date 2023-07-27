@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Netflix Clone - React App
+## Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Descrição do Projeto
+Este projeto é um clone da página inicial do Netflix, construído usando React. Ele permite que os usuários naveguem por uma seleção de filmes e assistam a trailers usando a biblioteca react-player. Os dados dos filmes são obtidos da API do TheMovieDB.
 
-## Available Scripts
+### Demonstração
+[Veja o projeto em ação](https://netflix-clone-d76be.web.app)
 
-In the project directory, you can run:
+### Tecnologias Utilizadas
+- [React.js](https://legacy.reactjs.org/docs/getting-started.html)
+- [Firebase (para o deploy)](https://firebase.google.com/)
+- [Biblioteca react-player (para reproduzir trailers)](https://www.npmjs.com/package/react-player)
+- [Biblioteca movie-trailer (para retornar url do youtube de trailers)](https://www.npmjs.com/package/movie-trailer)
+- [API do TheMovieDB (para obter os dados dos filmes)](https://www.themoviedb.org/?language=pt)
 
-### `npm start`
+### Pré-requisitos
+Certifique-se de ter o Node.js instalado no seu sistema. Isso permitirá que você execute o projeto localmente e instale as dependências necessárias.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instalação
+1.  Clone este repositório para o seu ambiente local usando o seguinte comando:
+```
+git clone https://github.com/seu-usuario/netflix-clone.git
+```
+2.  Navegue para o diretório do projeto:
+```
+cd netflix-clone
+```
+3.  Instale as dependências necessárias:
+```
+npm install
+```
+### Configuração
+Antes de executar o projeto, você precisa obter uma API Key do TheMovieDB. Acesse https://www.themoviedb.org/ para criar uma conta gratuita e obter a chave de API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Crie um arquivo .env na raiz do projeto e adicione sua chave de API:
+```
+REACT_APP_TMDB_API_KEY=SUA_CHAVE_DE_API_AQUI
+```
+### Executando o Projeto
+Após concluir a configuração, você pode executar o projeto localmente usando o seguinte comando:
+```
+npm start
+```
+O projeto será executado no modo de desenvolvimento e poderá ser acessado no seu navegador em http://localhost:3000.
 
-### `npm test`
+Contato
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+E-mail: ric.kds@hotmail.com
+GitHub: [github.com/ricardokuhlkamp](https://github.com/ricardokuhlkamp)
+Linkedin: [www.linkedin.com/in/ricardo-kühlkamp-dev](www.linkedin.com/in/ricardo-kühlkamp-dev)

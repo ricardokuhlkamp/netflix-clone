@@ -1,0 +1,79 @@
+.row-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.row-cards {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-card {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-bottom: 10px;
+  transition: transform 450ms;
+}
+
+.movie-card-large {
+  object-fit: contain;
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 10px;
+  transition: transform 450ms;
+}
+
+.movie-card:hover {
+  transform: scale(1.08);
+}
+
+/* Estilos para o contêiner do vídeo */
+.video-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-player {
+  height: 50%;
+}
+
+/* Estilos para o vídeo dentro do contêiner */
+
+
+/* Estilos para telas menores (smartphones) */
+@media screen and (max-width: 768px) {
+  .row-container {
+    margin-left: 10px; /* Reduz a margem à esquerda */
+    /* Outros estilos */
+  }
+
+  .row-cards {
+    display: flex;
+    padding: 10px; /* Reduz o espaçamento entre os cards */
+    margin-right: 10px;
+    /* Outros estilos */
+  }
+
+  .movie-card {
+    width: 45%; /* Reduz a largura dos cards para caber em telas menores */
+    max-height: 150px; /* Reduz a altura máxima dos cards */
+    margin: 5px; /* Adiciona um espaço entre os cards */
+    /* Outros estilos */
+  }
+
+  .movie-card-large {
+    /* display: none; Esconde os cards grandes em telas menores */
+  }
+
+  
+}

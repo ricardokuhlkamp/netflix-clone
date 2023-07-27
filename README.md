@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Netflix Clone - React App
 ## Netflix Clone
 

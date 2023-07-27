@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netflix Clone - React App
 ## Netflix Clone
 
@@ -50,3 +51,6 @@ Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato
 E-mail: ric.kds@hotmail.com
 GitHub: [github.com/ricardokuhlkamp](https://github.com/ricardokuhlkamp)
 Linkedin: [www.linkedin.com/in/ricardo-kühlkamp-dev](www.linkedin.com/in/ricardo-kühlkamp-dev)
+=======
+# netflix-clone
+>>>>>>> 869c3ad6893a51bcdf8d5e4b323a4a27ed2dcc5b

@@ -1,26 +1,36 @@
 # Netflix Clone - React App
-## Netflix Clone
+## __Netflix Clone__
 
-### Descrição do Projeto
+### __Descrição do Projeto__
 Este projeto é um clone da página inicial do Netflix, construído usando React. Ele permite que os usuários naveguem por uma seleção de filmes e assistam a trailers usando a biblioteca react-player. Os dados dos filmes são obtidos da API do TheMovieDB.
 
-### Demonstração
-[Veja o projeto em ação](https://netflix-clone-d76be.web.app)
+### __Demonstração__
 
-### Tecnologias Utilizadas
+<div style="background-color: white; display: inline-block; padding: 10px;">
+  <img src="./images/macbook.gif" alt="macbook" style="width: 500px;" />
+  <img src="./images/mobile.gif" alt="mobile" style="width: 150px;" />
+</div>
+
+- [link para gif da versão para mobile](https://www.webmobilefirst.com/en/screencasts/RFrUAjfM7L/)
+
+- [link para gif da versão para desktop](https://www.webmobilefirst.com/en/screencasts/AtwOETwLrY/)
+
+### __Tecnologias Utilizadas__
 - [React.js](https://legacy.reactjs.org/docs/getting-started.html)
-- [Firebase (para o deploy)](https://firebase.google.com/)
+
 - [Biblioteca react-player (para reproduzir trailers)](https://www.npmjs.com/package/react-player)
+
 - [Biblioteca movie-trailer (para retornar url do youtube de trailers)](https://www.npmjs.com/package/movie-trailer)
+
 - [API do TheMovieDB (para obter os dados dos filmes)](https://www.themoviedb.org/?language=pt)
 
-### Pré-requisitos
+### __Pré-requisitos__
 Certifique-se de ter o Node.js instalado no seu sistema. Isso permitirá que você execute o projeto localmente e instale as dependências necessárias.
 
-### Instalação
+### __Instalação__
 1.  Clone este repositório para o seu ambiente local usando o seguinte comando:
 ```
-git clone https://github.com/seu-usuario/netflix-clone.git
+git clone https://git@github.com:ricardokuhlkamp/netflix-clone.git
 ```
 2.  Navegue para o diretório do projeto:
 ```
@@ -30,14 +40,14 @@ cd netflix-clone
 ```
 npm install
 ```
-### Configuração
+### __Configuração__
 Antes de executar o projeto, você precisa obter uma API Key do TheMovieDB. Acesse https://www.themoviedb.org/ para criar uma conta gratuita e obter a chave de API.
 
 Crie um arquivo .env na raiz do projeto e adicione sua chave de API:
 ```
 REACT_APP_TMDB_API_KEY=SUA_CHAVE_DE_API_AQUI
 ```
-### Executando o Projeto
+### __Executando o Projeto__
 Após concluir a configuração, você pode executar o projeto localmente usando o seguinte comando:
 ```
 npm start
@@ -50,6 +60,3 @@ Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato
 E-mail: ric.kds@hotmail.com
 GitHub: [github.com/ricardokuhlkamp](https://github.com/ricardokuhlkamp)
 Linkedin: [www.linkedin.com/in/ricardo-kühlkamp-dev](www.linkedin.com/in/ricardo-kühlkamp-dev)
-=======
-# netflix-clone
->>>>>>> 869c3ad6893a51bcdf8d5e4b323a4a27ed2dcc5b

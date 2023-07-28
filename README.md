@@ -6,16 +6,23 @@ Este projeto é um clone da página inicial do Netflix, construído usando React
 
 ### __Demonstração__
 
+<center>
 <div style="background-color: white; display: inline-block; padding: 10px;">
   <img src="./images/macbook.gif" alt="macbook" style="width: 500px;" />
   <img src="./images/mobile.gif" alt="mobile" style="width: 150px;" />
 </div>
+</center>
 
-- [link para gif da versão para mobile](https://www.webmobilefirst.com/en/screencasts/RFrUAjfM7L/)
+- [link para gif da versão para mobile](https://www.webmobilefirst.com/en/screencasts/RFrUAjfM7L/) 📱
 
-- [link para gif da versão para desktop](https://www.webmobilefirst.com/en/screencasts/AtwOETwLrY/)
+- [link para gif da versão para desktop](https://www.webmobilefirst.com/en/screencasts/AtwOETwLrY/) 🖥
 
-### __Tecnologias Utilizadas__
+- [___Veja o projeto em ação!___](https://netflix-clone-zeta-livid.vercel.app/) 🎬
+
+> Para o deploy do projeto fora utilizado o [Vercel](https://vercel.com/)
+
+### **Tecnologias Utilizadas**
+
 - [React.js](https://legacy.reactjs.org/docs/getting-started.html)
 
 - [Biblioteca react-player (para reproduzir trailers)](https://www.npmjs.com/package/react-player)
@@ -54,9 +61,11 @@ npm start
 ```
 O projeto será executado no modo de desenvolvimento e poderá ser acessado no seu navegador em http://localhost:3000.
 
-Contato
+### __Contato__
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
 
-E-mail: ric.kds@hotmail.com
+E-mail: <ric.kds@hotmail.com>
+
 GitHub: [github.com/ricardokuhlkamp](https://github.com/ricardokuhlkamp)
+
 Linkedin: [www.linkedin.com/in/ricardo-kühlkamp-dev](www.linkedin.com/in/ricardo-kühlkamp-dev)

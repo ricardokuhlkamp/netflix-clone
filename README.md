@@ -21,6 +21,7 @@ Este projeto é um clone da página inicial do Netflix, construído usando React
 
 > Para o deploy do projeto fora utilizado o [Vercel](https://vercel.com/)
 
+
 ### **Tecnologias Utilizadas**
 
 - [React.js](https://legacy.reactjs.org/docs/getting-started.html)

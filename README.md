@@ -41,6 +41,7 @@ Certifique-se de ter o Node.js instalado no seu sistema. Isso permitirá que voc
 git clone https://git@github.com:ricardokuhlkamp/netflix-clone.git
 ```
 2.  Navegue para o diretório do projeto:
+
 ```
 cd netflix-clone
 ```
